@@ -1,0 +1,8 @@
+node_modules
+*.rest
+.git
+*~
+~$*
+tmp
+desktop.ini
+Thumbs.db
