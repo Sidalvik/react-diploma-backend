@@ -5,16 +5,15 @@
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
-    "start": "forever server.js",
-    "watch": "forever -w server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "forever": "^1.0.0",
     "koa": "^2.7.0",
     "koa-body": "^4.1.1",
     "koa-router": "^7.4.0",
-    "koa2-cors": "^2.0.6"
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^2.0.20"
   }
 }
